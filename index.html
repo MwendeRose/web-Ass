@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>hotel</title>
+</head>
+<body>
+    <section class="topbar">
+        <div id="logo">
+            <img  src="images/LOGO.png" alt "">
+            </div>
+           <Nav class="links">
+           <ul>
+            
+           <li><a href="#">HOME</a></li>
+           <li><a href="blog.html">BLOG</a></li>
+           <li><a href="servinces.html">SERVINCES</a></li>
+           <li><a href="contact-us.html">CONTACT US</a></li>
+
+           </ul>
+           
+            </Nav> 
+    </section>
+    <!-------------------Slider start------------------------>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="images/delicacies.jpg" style="width:100%;height: 500px;">
+          <div class="text">SEASIDE HOTEL</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="images/slider2.jpg.jpg" style="width:100%; height: 500px;">
+          <div class="text">QUALITY IS A QUARANTEE</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="images/food.jpg" style="width:100%;height: 500px;">
+          <div class="text">ESTEEMED TO SERVE</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="images/catering department.png" style="width:100%;height: 500px;">
+          <div class="text">WELCOME ALL</div>
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span>
+        </div>
+        
+
+    <!-------------------Slider end------------------------>
+    
+    <!------------------articles--------------->
+    <section class="articles-sider">
+            <!------------------all articles--------------->
+            <div class="articles">
+
+            
+             <div id="top">
+                 <div id="first">
+              <img src="images/menu.jpg" alt="" >
+                  <p> we alse offer a Qr code for menu dishes</p>
+
+                 </div>
+                 <div id="second">
+              <img src="images/pizza.jpg" alt="">
+              <p> It's on your attention that on Thursdays every week we offer "buy one pizza get one free" irregardless
+                of the size of your ,we value your choice.
+              </p>
+                </div>
+             </div>
+                 <div id="bottom">
+            <div id="third">
+              <img src="images/team building.jpg"alt="">
+              <p>Since it's an international hotel bring together people from all parts of the world.
+                So,offers a great opportunity to interact with more people in the world and moreover creating more opportunities
+              for jobs.        
+                  </p>
+            </div>
+            <div id="four">
+            <img src="images/view point.jpg" alt="">
+            <p>We all admire nature!! The seashows and the sand beaches are so attractive in human site.</p>
+            </div>
+
+        </div>
+    </div>
+     <!------------------adverts--------------->
+     <section class="adverts">
+      <p><u><b>Advertisements</b></u></p>
+      <p>
+        1. In need of a photographer,quality photos for our guests.<br>
+        2. In need of a proffessional tour guide.<br>
+        3. To apply  for any of vacancies vistit our contact-page
+        or<br> email@mwenderose44@gmail.com.<br>
+       </p>
+      
+      <!------------------images--------------------------->
+      <div id="images-adverts">
+        <img src="images/parking 2.jpg" alt="">
+        <img src="images/pic.3.png" alt="">
+        <img src="images/view point.jpg" alt="">
+
+      </div>
+    </section>
+  <script>
+  
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 5 seconds
+    }
+    </script>
+    </section>
+    
+   
+   
+<!--------------------footer--------------------*/
+
+
+<!--------------------Javascript slide code---------------------->
+<script>
+  
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 1 minute
+    }
+    </script>
+   
+  <footer>
+    <legend><u><B>MISSION</B></u></legend>
+<p>To provide a good environment for tourists around the coast the good accomodation services,healthy food and security.
+  A number of facilities are available for both local and international guests.
+  To inspire a good working and service to others
+</p><section class="footer">
+  <nav class="icons">
+<a href="https://www.instagram.com/__cassiey_/"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a>
+<a href="https://twitter.com/home"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a>
+<a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp" aria-hidden="true"></i>Whatsapp</a>
+  </nav>
+
+</footer>
+</section>
+  </body>
+</html>

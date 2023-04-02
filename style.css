@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(190, 182, 182);
+}
+.topbar{
+    display: flex;
+    background-color: #fff;
+}
+#logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.links ul{
+    display: flex;
+    gap: 25px;
+    float: left;
+}
+.links ul li{
+list-style: none;
+padding-left: 3em;
+margin-top: 2.5em;
+
+}
+/***************slider******************************/
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, sans-serif;
+}
+.mySlides {
+    display: none;
+}
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/9 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/***************Topbar***********************/
+
+/***************Articles***********************/
+.articles-sider{
+    display: flex;
+}
+#top{
+    display: flex;
+    margin-top: 9px;
+}
+#bottom{
+    display: flex;
+    margin-top: 9px;
+}
+#first{
+    border: 0px solid blue;
+    width: 22em;
+    height: 13em;
+    margin-left: 20px;
+}
+#first img{
+    width: 250px;
+    height:150px;
+}
+#first p{
+    color: black;
+    font-size: 13px;
+
+}
+#second{
+    border: 0px solid blue;
+    width: 22em;
+    height: 13em;
+    margin-left: 20px;
+}
+ #second img{
+        width: 250px;
+        height: 150px;
+}
+#second p{
+    color: black;
+    font-size: 13px;
+}
+#third{
+    border: 0px solid blue;
+    width: 22em;
+    height: 13em;
+    margin-left: 20px;
+}
+#third img{
+    width: 250px;
+    height: 100px;
+}
+#third p{
+    color: black;
+    font-size: 13px;
+}
+#four{
+    border: 0px solid blue;
+    width: 22em;
+    height: 13em;
+    margin-left: 20px;
+}
+#four img{
+    width: 260px;
+    height: 140px;
+}
+#four p{
+    color: black;
+    font-size: 13px;
+}
+/*Adverts***************************************/
+.adverts{
+    border: 1px solid red;
+    width: 35em;
+    height: 21em;
+    margin-left: 2em;
+    margin-top: 20px;
+}
+.icons{
+    gap:100px;
+    display: flex;
+    color: blue;
+}
+#images-adverts img{
+    width: 150px;
+    height: 220px;
+    margin-top: 0.5em;
+    margin-left: 1em;
+}
+#top2{
+    display: block;
+
+}
+#bottom2{
+    display: block;
+}
+#one img{
+    width:100px;
+    height:180px;
+}
+#two img{
+    width:100px;
+    height:180px;
+}
+#three img{
+    width:100px;
+    height:180px;
+}
+#fourth img{
+    width:100px;
+    height:180px;
+}
+.footer{
+    display: block;
+}
+.icons a{
+    color: tomato;
+    font-size: 1em;
+}
+.icons a i{
+    font-size: 1.5em;
+    color: aqua;
+}

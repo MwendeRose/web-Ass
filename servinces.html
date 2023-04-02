@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVICES</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <P style="font-family: Arial; font-size: 25; color: black;">Seaside hotel is located in Mombasa 1.3km from beach.
+        The seaside hotel offers the following services:</P>
+      <legend> 1.Accomodation with outdoor swimming pool.</legend><br>
+       <legend>2.Free private parking.</legend><br>
+       <legend>3.A garden and a shared lounge.</legend><br>
+       <legend>4.Family rooms with free wifi (accomodation desk is 24 hour work desk)</legend><br>
+       <legend>5.Includes free catering services.</legend><br>
+       <legend>6.Uber food along your places of explore</legend>
+       
+  <p>The following slides phototypic explaination of the services offered.</p>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / </div>
+              <img src="images/conference.jpg" style="width:100%;height: 500px;">
+              <div class="text">We call for team building</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 5</div>
+              <img src="images/bedroom 2.png" style="width:100%; height: 500px;">
+              <div class="text">Spacious and confortable rooms</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 5</div>
+              <img src="images/conference.jpg" style="width:100%;height: 500px;">
+              <div class="text">Good security and good care for our guests</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 5</div>
+              <img src="images/food 1.jpg" style="width:100%;height: 500px;">
+              <div class="text">Your health our priority</div>
+            </div>
+           <div class="mySlides fade">
+              <div class="numbertext">5 / 6</div>
+              <img src="images/parking 2.jpg" style="width:100%;height: 500px;">
+              <div class="text">We value your property</div>
+            </div>
+            <div class="mySlides fade">
+              <div class="numbertext">6/ 6</div>
+              <img src="images/view point.jpg" style="width:100%;height: 500px;">
+              <div class="text">Available cool ocean breeze</div>
+            </div>
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+        <script>
+  
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+</body>
+<footer>
+  <form>
+    <style>
+        body{
+            font-family: 'Times New Roman';
+            font-size: 18px;
+            color:black;
+            background-color: darkgray;
+        }
+    </style>
+    <fieldset>
+        <label>Check-in-date</label>
+        <input type="date" name"date">
+        <label>Check-out-date</label>
+        <input type="date" name"date"><br>
+        <label>adults</label>
+        <input type="number" name "number/">
+        <label>children</label>
+        <input type="number" name "number/">
+        <label>Rooms</label>
+        <input type="number" name "number/"><br>
+        <legend>Are you travellimg for work?</legend><br>
+        <input type="radio" name "radio/">
+        Yes </input>
+        <input type="radio" name "radio/">
+        No </input><br>
+        <input type="submit" name "submit">
+        
+    </fieldset>
+</form>
+</footer>
+</html>
