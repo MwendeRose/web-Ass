@@ -221,3 +221,28 @@ img {
     font-size: 1.5em;
     color: aqua;
 }
+/*************form********/
+#form{
+    margin-top: 1.5em;
+    margin-left: 1em;
+    border: 0px solid black;
+    width: 20em;
+    border-radius: 2px;
+    height: 18em;
+    background-color:skyblue;
+}
+#form input{
+    padding: 2px;
+    margin-left:1em ;
+    margin-top: 1em;
+}
+#form textarea{
+    
+    margin-left:1em ;
+    margin-top: 1em;
+}
+table{
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman';
+    background-color:violet;
+}
